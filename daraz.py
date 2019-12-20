@@ -38,7 +38,6 @@ def convert_price_integer(price):
 
 args = sys.argv
 keyword = ''
-print(args)
 
 if len(args) > 0 and len(args) != 2:
     exit('Scrapping accepts only one argument. Please wrap your keyword in ""')
